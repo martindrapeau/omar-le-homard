@@ -1,0 +1,120 @@
+<!doctype html>
+<html style="touch-action: none;">
+    <head>
+        <title>Omar le homard</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="favicon.png" rel="apple-touch-icon" />
+
+        <meta name="viewport" content="width=640, user-scalable=no"/>
+        <meta name="mobileoptimized" content="0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/underscore.js" type="text/javascript"></script>
+        <script src="js/backbone.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+        
+        <style>
+            @-ms-viewport {
+                width: 640px;
+            }
+            @font-face {
+                font-family: 'arcade';
+                src: url('fonts/arcade.ttf'), url('fonts/arcade.woff');
+            }
+            html { 
+              background: url(img/under-the-sea.png) no-repeat center center fixed; 
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: transparent;
+                font-family: "arcade";
+                line-height: 1.2em;
+            }
+
+            .header h1 {
+                font-size: 3em;
+                line-height: 1.5em;
+                text-align: center;
+                padding: 0.25em;
+                margin: 0;
+                color: orange;
+                text-shadow: 5px 3px #333;
+                position: fixed;
+                top: 0;
+            }
+
+            .content {
+                width: 605vw;
+                margin-top: 170px;
+            }
+
+            .card {
+                display: inline-block;
+                padding: 0 5vw 5vw 5vw;
+                max-width: 90vw;
+                max-height: 90vh;
+            }
+            .card h2 {
+                background-color: #fdb;
+                color: #333;
+                margin: 0;
+                padding: 0;
+                font-size: 2em;
+                line-height: 2em;
+                text-align: center;
+            }
+            .card img {
+                max-width: 100%;
+                max-height: 100%;
+                display: block;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Les histoires de Omar le homard.</h1>
+        </div>
+        <div class="content">
+            <div class="card">
+                <h2>Omar le homard</h2>
+                <img src="img/homard.png" />
+            </div>
+            <div class="card">
+                <h2>Barbara la pieuvre</h2>
+                <img src="img/pieuvre.png" />
+            </div>
+            <div class="card">
+                <h2>Hypolite l'hippocampe</h2>
+                <img src="img/hippocampe.png" />
+            </div>
+            <div class="card">
+                <h2>Rock le requin</h2>
+                <img src="img/requin.png" />
+            </div>
+            <div class="card">
+                <h2>Pierre l'étoile de mer</h2>
+                <img src="img/etoile.png" />
+            </div>
+            <div class="card">
+                <h2>Alain le dauphin</h2>
+                <img src="img/dauphin.png" />
+            </div>
+        </div>
+        <div class="footer"></div>
+        
+    </body>
+
+</html>
