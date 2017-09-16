@@ -28,6 +28,10 @@
                 src: url('fonts/arcade.ttf'), url('fonts/arcade.woff');
             }
 
+            * {
+                box-sizing: border-box;
+            }
+
             body {
                 margin: 0;
                 padding: 0;
@@ -66,10 +70,13 @@
 
             .content {
                 position: relative;
+                display: flex;
                 margin-top: 170px;
             }
 
             .card {
+                width: 90vw;
+                flex-shrink: 0;
                 padding: 0 5vw 5vw 5vw;
             }
             .card h2 {
@@ -96,10 +103,11 @@
                     e.preventDefault();
                 });
 
-                $('.content').slick({
+                /*$('.content').slick({
                     arrows: false,
                     waitForAnimate: false
-                });
+                });*/
+
             });
         </script>
 
